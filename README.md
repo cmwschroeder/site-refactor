@@ -24,3 +24,7 @@ multiple elements had the same changes done to them.
 Technology used:
 
 HTML and CSS
+
+Screenshot of page:
+
+![alt text](https://github.com/cmwschroeder/site-refactor/blob/main/assets/images/screenshot-one.png?raw=true)
