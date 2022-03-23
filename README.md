@@ -21,9 +21,9 @@ footer to better follow a heading structure into an h4 tag, as it was the fourth
 Lastly I consolodated all of the css elements so that there was no unneccessary writting in the css file, as
 multiple elements had the same changes done to them.
 
-Technology used:
+Technologies used: HTML and CSS
 
-HTML and CSS
+Link to page: https://cmwschroeder.github.io/site-refactor/
 
 Screenshot of page:
 
