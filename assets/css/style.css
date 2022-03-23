@@ -1,13 +1,22 @@
+/*
+ * Changes the page to that the browser knows to account for padding and borders.
+ */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+ * Sets background color of page
+ */
 body {
     background-color: #d9dcd6;
 }
 
+/*
+ * Changes the header tag, sets padding, font, background color, and text color.
+ */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +24,9 @@ header {
     color: #ffffff;
 }
 
+/*
+ * Changes the nav tag, sets padding and margin. Floats text to right and sets font size and type.
+ */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -23,18 +35,29 @@ nav {
     font-size: 20px;
 }
 
+/*
+ * For the figure tag, sets height of image inside and width to 100% of broswer so it can be modified by the browser.
+ * also sets a margin
+ */
 figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
 }
 
+/*
+ * For the main body, sets width to 75% so we have room for the aside. Sets display and margin.
+ */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*
+ * For the aside tag. Sets margin and padding. clears so text will go under. Floats text to the right.
+ * sets width and height of aside block. Sets font and background color of aside box.
+ */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -46,6 +69,10 @@ aside {
     background-color: #2589bd;
 }
 
+/*
+ * Sets style for footer. Pads the box and clear so any flot would go below the text
+ * Sets font and puts all text in center of browser.
+ */
 footer {
     padding: 30px;
     clear: both;
@@ -53,29 +80,47 @@ footer {
     text-align: center;
 }
 
+/*
+ * Sets style for h1 tag. Sets font size and makes sure it behaves like an inline tag
+ */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*
+ * Sets margin and font size for all h2 tags.
+ */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*
+ * Sets margin for all h3 tags and aligns the text in the center of the block
+ */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+ * Sets font size for the h4 in the footer.
+ */
 h4 {
     font-size: 20px;
 }
 
+/*
+ * Sets all text in p tags to 16px.
+ */
 p {
     font-size: 16px;
 }
 
+/*
+ * Changes style for the anchors in the nav tag.
+ */
 a {
     display: inline-block;
     margin-left: 25px;
@@ -83,16 +128,26 @@ a {
     text-decoration: none;
 }
 
+/*
+ * Sets color for the title
+ */
 .title-color {
     color: #d9dcd6;
 }
 
+/*
+ * Sets the background image to take up all available space in the figure block.
+ */
 .background-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+/*
+ * Combined sections in the main class that behave the same. Sets margin and padding and height of block
+ * Changes background color and text color as well as font type.
+ */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,23 +157,38 @@ a {
     color: #ffffff;
 }
 
+/*
+ * Combined the images in 2 of the main sections as they behave the same.
+ * Floats images to the left and sets margin and max height.
+ */
 .seo-image, .social-media-marketing-image {
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
+/*
+ * Other main image that behaves differently. Sets float to right
+ * then does the same margin and height as the other images.
+ */
 .online-reputation-management-image {
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
+/*
+ * Combined all sections in the aside block. Sets margin and text color.
+ */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
+ * Combined all images in aside block as they all act the same. Displays them as block tags
+ * and sets margin and max-width
+ */
 .benefit-lead img, .benefit-cost img, .benefit-brand img {
     display: block;
     margin: 10px auto;
